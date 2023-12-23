@@ -1,0 +1,202 @@
+/* header start */
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #121212;
+}
+
+.navbar {
+    width: 189.5vh;
+    height: 100vh;
+    background-color: #121212;
+}
+
+#main {
+    position: relative;
+    top: 50px;
+    height: 50px;
+}
+
+.contener {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+.button_BookNow button {
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+    background-color: #121212;
+}
+
+/* header end */
+/* h1_hotel_name start */
+.h1_hotel_name {
+    color: white;
+    width: 500px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.navbar_text {
+    top: 150px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    left: 20px;
+}
+
+
+
+.navbar_text #contener .card {
+    position: relative;
+    width: 220px;
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+}
+
+.navbar_text #contener a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    bottom: 8px;
+}
+
+.images_main {
+    position: relative;
+    top: 150px;
+
+}
+
+.images_main img {
+    position: relative;
+
+    width: 191.6vh;
+}
+
+/* h1_hotel_name end */
+/* start two page */
+
+.page_two {
+    position: relative;
+    left: 0px;
+    margin: 0%;
+    padding: 0%;
+    width: 191.6vh;
+    background-color: #fff;
+    height: 1500px;
+}
+
+.images_div {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 70em;
+    background-color: rgba(255, 117, 0, 0.04);
+    ;
+
+}
+
+#page_two #card span {
+    width: 10px;
+    margin-right: 10px;
+
+}
+
+#page_two #card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 60px;
+}
+
+#page_two {
+    position: relative;
+    width: 840px;
+    height: 70px;
+    left: 500px;
+    top: 100px;
+    display: flex;
+}
+
+.text_h1 h1 {
+    position: relative;
+    font-size: 45px;
+    top: 150px;
+    text-align: center;
+
+}
+
+.text_h1 h1 del {
+    color: #FF7500;
+    text-decoration: none;
+}
+
+.p_text p {
+    position: relative;
+    width: 400px;
+    top: 170px;
+    left: 720px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.308);
+}
+
+.card_contener .cart p {
+    color: rgba(0, 0, 0, 0.308);
+}
+
+.card_contener .cart h1 {
+    font-size: 25px;
+}
+
+.card_contener .cart {
+    position: relative;
+    top: 300px;
+    left: 50px;
+    width: 450px;
+    
+    height: 150px;
+    margin-top: 30px;
+}
+
+.card_contener .cart .deg {
+    position: relative;
+    background-color: #FF7500;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+ 
+}
+.card_contener .cart .deg span{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    top: 8px;
+
+}
+
+/* end two page */
