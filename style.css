@@ -5,6 +5,7 @@
 
 body {
     background-color: #121212;
+    width: 100%;
 }
 
 .navbar {
@@ -35,16 +36,20 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
-
-
-.button_BookNow button {
-    width: 130px;
-    height: 45px;
     font-size: 18px;
     color: white;
+    transition: .7s;
+}
+
+.nav_ul li a:hover {
+    color: rgb(255, 196, 0);
+}
+
+.button_BookNow button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
     border: 2px solid white;
     background-color: #121212;
 }
@@ -53,17 +58,17 @@ ul li a {
 /* h1_hotel_name start */
 .h1_hotel_name {
     color: white;
-    width: 500px;
-    font-size: 28px;
+    width: 430px;
+    font-size: 24px;
     text-transform: uppercase;
 }
 
 .navbar_text {
-    top: 150px;
+    top: 100px;
     position: relative;
     display: flex;
     justify-content: space-around;
-    left: 20px;
+
 }
 
 
@@ -79,9 +84,9 @@ ul li a {
     position: relative;
     text-decoration: none;
     color: white;
-    margin-top: 20px;
-    font-size: 20px;
-    bottom: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    bottom: 5px;
 }
 
 .images_main {
@@ -92,8 +97,8 @@ ul li a {
 
 .images_main img {
     position: relative;
+    width: 198.3vh;
 
-    width: 191.6vh;
 }
 
 /* h1_hotel_name end */
@@ -101,12 +106,11 @@ ul li a {
 
 .page_two {
     position: relative;
-    left: 0px;
-    margin: 0%;
-    padding: 0%;
-    width: 191.6vh;
+    right: 9px;
+    top: 199px;
+    width: 199.7vh;
     background-color: #fff;
-    height: 1500px;
+    height: 1130px;
 }
 
 .images_div {
@@ -136,7 +140,7 @@ ul li a {
     position: relative;
     width: 840px;
     height: 70px;
-    left: 500px;
+    left: 250px;
     top: 100px;
     display: flex;
 }
@@ -158,7 +162,7 @@ ul li a {
     position: relative;
     width: 400px;
     top: 170px;
-    left: 720px;
+    left: 450px;
     text-align: center;
     color: rgba(0, 0, 0, 0.308);
 }
@@ -168,15 +172,14 @@ ul li a {
 }
 
 .card_contener .cart h1 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .card_contener .cart {
     position: relative;
-    top: 300px;
+    top: 230px;
     left: 50px;
     width: 450px;
-    
     height: 150px;
     margin-top: 30px;
 }
@@ -184,19 +187,1235 @@ ul li a {
 .card_contener .cart .deg {
     position: relative;
     background-color: #FF7500;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 100px;
     text-align: center;
- 
+
 }
-.card_contener .cart .deg span{
+
+.card_contener .cart .deg span {
     position: relative;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     top: 8px;
 
 }
 
+.bed_img img {
+    position: relative;
+    left: 827px;
+    bottom: 300px;
+}
+
+.hotel_page img {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    left: 660px;
+    bottom: 720px;
+}
+
+.sms_cody {
+    position: relative;
+    left: 1000px;
+    bottom: 380px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.images_cody img {
+    position: relative;
+    padding: 4px;
+
+}
+
+.sms_cody h6 {
+    position: relative;
+    font-size: 14px;
+    width: 140px;
+    bottom: 25px;
+    left: 10px;
+}
+
+.sms_cody span {
+    position: relative;
+    width: 120px;
+    top: 30px;
+    right: 70px;
+    font-size: 11px;
+}
+
+.sms_cody span i {
+    color: #FF7500;
+
+}
+
+
+.sms_Albert {
+    position: relative;
+    left: 700px;
+    bottom: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    border-radius: 5px;
+    width: 200px;
+    z-index: 1;
+}
+
+.images_Albert img {
+    position: relative;
+    padding: 4px;
+
+}
+
+.sms_Albert h6 {
+    position: relative;
+    font-size: 13px;
+    width: 140px;
+    bottom: 22px;
+    left: 10px;
+}
+
+.sms_Albert span {
+    position: relative;
+    width: 120px;
+    top: 30px;
+    right: 70px;
+    font-size: 11px;
+}
+
+.sms_Albert span i {
+    color: #FF7500;
+
+}
+
+.sms_devon {
+    position: relative;
+    left: 900px;
+    top: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    border-radius: 5px;
+    width: 200px;
+    z-index: 1;
+}
+
+.images_devon img {
+    position: relative;
+    padding: 4px;
+
+}
+
+.sms_devon h6 {
+    position: relative;
+    font-size: 13px;
+    width: 140px;
+    bottom: 22px;
+    left: 10px;
+}
+
+.sms_devon span {
+    position: relative;
+    width: 120px;
+    top: 30px;
+    right: 70px;
+    font-size: 11px;
+}
+
+.sms_devon span i {
+    color: #FF7500;
+
+}
+
 /* end two page */
+
+/* start three page */
+
+#contener_three {
+    position: relative;
+    top: 170px;
+
+    right: 9px;
+    width: 199.7vh;
+    height: 1000px;
+    background-color: #fff;
+}
+
+
+.text h4 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text h1 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.text h1 del {
+    text-decoration: none;
+    color: #FF7500;
+}
+
+.text p {
+    position: relative;
+    width: 400px;
+    text-align: center;
+    left: 450px;
+    top: 60px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.301);
+}
+
+#room_images {
+    display: flex;
+
+}
+
+.images_two {
+    position: relative;
+    left: 180px;
+}
+
+.Room_with_View {
+    position: relative;
+    top: 100px;
+
+}
+
+.Room_with_View img {
+    width: 270px;
+    height: 200px;
+}
+
+.Room_with_View h4 {
+    font-family: sans-serif;
+}
+
+.Room_with_View p {
+    color: rgba(0, 0, 0, 0.301);
+}
+
+.luxery_room {
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.luxery_room p {
+    color: rgba(0, 0, 0, 0.267);
+}
+
+.luxery_room img {
+    height: 500px;
+    width: 340px;
+}
+
+.images_two_right {
+    position: relative;
+    left: 220px;
+    top: 100px;
+    float: right;
+}
+
+.Room_with_View_right img {
+    width: 270px;
+    height: 200px;
+}
+
+.Room_with_View_right p {
+    color: rgba(0, 0, 0, 0.267);
+}
+
+/* end three page */
+/* start about page */
+.about_page {
+    position: relative;
+    top: 140px;
+    background-color: #121212;
+    width: 193.3vh
+}
+
+.box_card {
+    position: relative;
+    padding: 100px;
+}
+
+.bottom_h1 {
+    position: relative;
+    left: 42px;
+}
+
+.bottom {
+    position: relative;
+    width: 130px;
+    border-bottom: 3px solid #FF7500;
+    top: 5px;
+}
+
+.bottom_h1 h1 {
+    position: relative;
+    color: #fff;
+}
+
+.card_bottom img {
+    position: relative;
+    left: 42px;
+    float: right;
+    height: 500px;
+}
+
+.box_card blockquote {
+    position: relative;
+    width: 400px;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.144);
+    top: 40px;
+
+}
+
+.Explore {
+    position: relative;
+    left: 42px;
+    border: none;
+    top: 54px;
+    height: 50px;
+    color: #fff;
+    width: 150px;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: #FF7500;
+}
+
+/* end about page */
+.banner {
+    position: relative;
+    top: 140px;
+    width: 199.7vh;
+    background-color: #fff;
+    height: 550px;
+}
+
+.card_information_img {
+    position: relative;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 99em;
+    top: 20px;
+    background-color: #FF7500;
+
+}
+
+.card_information_img img {
+    position: relative;
+    top: 5px;
+}
+
+.card_information_interior h4 {
+    position: relative;
+    top: 40px;
+}
+
+.card_information_interior {
+    width: 250px;
+    height: 200px;
+    box-shadow: 0px 0px .5px 0px #000;
+    background-color: #fff;
+}
+
+.card_information p {
+    position: relative;
+    top: 40px;
+    font-size: 14px;
+    width: 197px;
+    color: rgba(0, 0, 0, 0.226);
+}
+
+.card_information_interior_interior {
+    position: relative;
+    left: 15px;
+}
+
+.card_information_display {
+    position: relative;
+    display: flex;
+    gap: 25px;
+    left: 690px;
+    bottom: 30px;
+    width: 500px;
+}
+
+.card_people {
+    position: relative;
+    width: 265px;
+    height: 300px;
+    left: 200px;
+    bottom: 260px;
+}
+
+.start li img {
+    width: 15px;
+    position: absolute;
+}
+
+.start {
+    position: relative;
+    display: flex;
+    right: 37px;
+}
+
+.card_people p {
+    top: 120px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.226);
+}
+
+#people_images li {
+    position: relative;
+    margin-left: 10px;
+    right: 50px;
+    top: 40px;
+
+}
+
+li {
+    cursor: pointer;
+}
+
+#people_images img {
+    position: absolute;
+    width: 40px;
+}
+
+.card_people span {
+    top: 75px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.226);
+
+}
+
+.footer_page {
+    position: relative;
+    top: 100px;
+    height: 470px;
+    width: 199.6;
+    background-color: #121212;
+}
+
+.footer_about {
+    color: #fff;
+    flex-direction: column;
+}
+
+#right_ul {
+    position: relative;
+    color: white;
+    flex-direction: column;
+}
+
+#Click {
+    position: relative;
+    border: none;
+    background-color: #FF7500;
+    border-radius: 8px;
+    height: 46px;
+    color: white;
+    width: 80px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.input_div h1 {
+    position: relative;
+    left: 50px;
+}
+
+.input_div p {
+    position: relative;
+    right: 5px;
+    bottom: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.input_div {
+    color: white;
+}
+
+.input_div input {
+    position: relative;
+    border: 2px solid white;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #121212;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.foter_aboute {
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#hr_footer {
+    position: relative;
+    top: 130px;
+    width: 1030px;
+    left: 20px;
+}
+
+.images_website {
+    position: relative;
+    float: right;
+    top: 140px;
+    right: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon_website p {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+
+/* @media only screen and  (min-width:768px)  {
+
+    body {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 100%;
+        background-color: #121212;
+    }
+
+    #main {
+        position: relative;
+        top: 50px;
+        height: 50px;
+    }
+
+    .contener {
+        position: relative;
+        left: 20px;
+        display: flex;
+        width: 100%;
+    }
+
+    ul {
+        position: relative;
+        display: flex;
+        gap: 8px;
+        right: 30px;
+    }
+
+    ul li {
+        list-style: none;
+    }
+
+    ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        transition: .7s;
+    }
+
+    .button_BookNow button {
+        position: relative;
+        top: 5px;
+        padding: 8px 17px;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+        border: 2px solid white;
+        background-color: #121212;
+    }
+
+
+    .h1_hotel_name {
+        position: relative;
+        left: 30px;
+        color: white;
+        width: 430px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .navbar_text {
+        width: 100%;
+        top: 100px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .navbar_text #contener .card {
+        position: relative;
+        width: 220px;
+        border-bottom: 1px solid white;
+    }
+
+    .navbar_text #contener a {
+        position: relative;
+        text-decoration: none;
+        color: white;
+        margin-top: 10px;
+        font-size: 17px;
+        bottom: 5px;
+    }
+
+    .images_main {
+        position: relative;
+        top: 150px;
+    }
+
+    .images_main img {
+        position: relative;
+        width: 101.3%;
+
+    }
+
+ 
+
+    .page_two {
+        position: relative;
+        top: 130px;
+        width: 102.4%;
+        background-color: #fff;
+        height: 960px;
+    }
+
+    .images_div {
+        width: 80px;
+        height: 60px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: rgba(255, 119, 0, 0.13);
+    }
+
+    #page_two #card span {
+        width: 10px;
+        margin-right: 10px;
+    }
+
+    #page_two #card {
+        display: flex;
+        align-items: center;
+        width: 140px;
+
+    }
+
+    #page_two {
+        position: relative;
+        width: 840px;
+        height: 70px;
+        top: 40px;
+        display: flex;
+        left: -30px;
+    }
+
+    .text_h1 h1 {
+        position: relative;
+        font-size: 40px;
+        top: 50px;
+        text-align: center;
+
+    }
+
+    .text_h1 h1 del {
+        color: #FF7500;
+        text-decoration: none;
+    }
+
+    .p_text p {
+        position: relative;
+        width: 400px;
+        top: 70px;
+        left: 190px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.308);
+    }
+
+    .card_contener .cart p {
+        color: rgba(0, 0, 0, 0.308);
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .card_contener .cart h1 {
+        font-size: 16px;
+    }
+
+    .card_contener .cart {
+        position: relative;
+        top: 100px;
+        left: 10px;
+        width: 450px;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    .div_mesage {
+        position: relative;
+        right: 41.7px;
+    }
+
+    .card_contener .cart .deg {
+        position: relative;
+        background-color: #FF7500;
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+        text-align: center;
+
+    }
+
+    .card_contener .cart .deg span {
+        position: relative;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        top: 8px;
+
+    }
+
+    .bed_img img {
+        position: relative;
+        left: 492px;
+        width: 320px;
+        bottom: 300px;
+    }
+
+    .hotel_page img {
+        position: relative;
+        width: 300px;
+        height: 150px;
+        left: 340px;
+        bottom: 620px;
+    }
+
+    .sms_cody {
+        position: relative;
+        left: 580px;
+        bottom: 380px;
+        height: 50px;
+        text-align: center;
+        background-color: #fff;
+        display: flex;
+        border-radius: 5px;
+        width: 200px;
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    .images_cody img {
+        position: relative;
+        padding: 4px;
+
+    }
+
+    .sms_cody h6 {
+        position: relative;
+        font-size: 14px;
+        width: 140px;
+        bottom: 25px;
+        left: 10px;
+    }
+
+    .sms_cody span {
+        position: relative;
+        width: 120px;
+        top: 30px;
+        right: 70px;
+        font-size: 11px;
+    }
+
+    .sms_cody span i {
+        color: #FF7500;
+
+    }
+
+
+    .sms_Albert {
+        position: relative;
+        left: 400px;
+        bottom: 320px;
+        height: 50px;
+        text-align: center;
+        background-color: #fff;
+        display: flex;
+        border-radius: 5px;
+        width: 200px;
+        z-index: 1;
+    }
+
+    .images_Albert img {
+        position: relative;
+        padding: 4px;
+
+    }
+
+    .sms_Albert h6 {
+        position: relative;
+        font-size: 13px;
+        width: 140px;
+        bottom: 22px;
+        left: 10px;
+    }
+
+    .sms_Albert span {
+        position: relative;
+        width: 120px;
+        top: 30px;
+        right: 70px;
+        font-size: 11px;
+    }
+
+    .sms_Albert span i {
+        color: #FF7500;
+
+    }
+
+    .sms_devon {
+        position: relative;
+        left: 600px;
+        top: -60px;
+        height: 50px;
+        text-align: center;
+        background-color: #fff;
+        display: flex;
+        border-radius: 5px;
+        width: 200px;
+        z-index: 1;
+    }
+
+    .images_devon img {
+        position: relative;
+        padding: 4px;
+
+    }
+
+    .sms_devon h6 {
+        position: relative;
+        font-size: 13px;
+        width: 140px;
+        bottom: 22px;
+        left: 10px;
+    }
+
+    .sms_devon span {
+        position: relative;
+        width: 120px;
+        top: 30px;
+        right: 70px;
+        font-size: 11px;
+    }
+
+    .sms_devon span i {
+        color: #FF7500;
+
+    }
+
+
+
+    #contener_three {
+        position: relative;
+        top: 100px;
+        right: 9px;
+        width: 102.4%;
+        height: 1000px;
+        background-color: #fff;
+    }
+
+
+    .text h4 {
+        position: relative;
+        top: 70px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .text h1 {
+        position: relative;
+        top: 70px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .text h1 del {
+        text-decoration: none;
+        color: #FF7500;
+    }
+
+    .text p {
+        position: relative;
+        width: 400px;
+        text-align: center;
+        left: 180px;
+        top: 60px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.301);
+    }
+
+    #room_images {
+        display: flex;
+    }
+
+    .images_two {
+        position: relative;
+        left: 80px;
+    }
+
+    .Room_with_View {
+        position: relative;
+        top: 100px;
+
+    }
+
+    .Room_with_View img {
+        width: 170px;
+        height: 100px;
+    }
+
+    .Room_with_View h4 {
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .Room_with_View p {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.301);
+    }
+
+    .luxery_room {
+        position: relative;
+        left: 100px;
+        top: 100px;
+
+    }
+
+    .luxery_room p {
+        color: rgba(0, 0, 0, 0.267);
+    }
+
+    .luxery_room img {
+        height: 293px;
+        width: 200px;
+    }
+
+    .images_two_right {
+        position: relative;
+        left: 120px;
+        top: 100px;
+        float: right;
+    }
+
+    .Room_with_View_right img {
+        width: 170px;
+        height: 100px;
+    }
+
+    .Room_with_View_right h4 {
+        font-size: 15px;
+    }
+
+    .Room_with_View_right p {
+        font: 14px;
+        color: rgba(0, 0, 0, 0.267);
+    }
+
+
+    .about_page {
+        position: relative;
+        top: 140px;
+        background-color: #121212;
+        width: 100.4%;
+        height: 400px;
+    }
+
+    .box_card {
+        position: relative;
+        padding: 30px;
+    }
+
+    .bottom_h1 {
+        position: relative;
+        left: 42px;
+    }
+
+    .bottom {
+        position: relative;
+        width: 130px;
+        border-bottom: 3px solid #FF7500;
+        top: 5px;
+    }
+
+    .bottom_h1 h1 {
+        font-size: 30px;
+        position: relative;
+        color: #fff;
+    }
+
+    .card_bottom {
+        width: 730px;
+    }
+
+    .card_bottom img {
+        position: relative;
+        float: right;
+        height: 400px;
+        left: 56px;
+    }
+
+    .box_card blockquote {
+        position: relative;
+        width: 300px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.144);
+        top: 10px;
+
+    }
+
+    .Explore {
+        position: relative;
+        left: 42px;
+        border: none;
+        top: 54px;
+        height: 40px;
+        color: #fff;
+        width: 110px;
+        border-radius: 40px;
+        cursor: pointer;
+        background-color: #FF7500;
+    }
+
+    .banner {
+        position: relative;
+        top: 140px;
+        width: 100%;
+        background-color: #fff;
+        height: 550px;
+
+    }
+
+    .card_information_img {
+        position: relative;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        border-radius: 99em;
+        top: 20px;
+        background-color: #FF7500;
+
+    }
+
+    .card_information_img img {
+        position: relative;
+        top: 5px;
+        width: 17px;
+        height: 17px;
+    }
+
+    .card_information_interior h4 {
+        position: relative;
+        top: 20px;
+        font-size: 15px;
+    }
+
+    .card_information_interior {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+    }
+
+    .card_information p {
+        position: relative;
+        top: 20px;
+        font-size: 12px;
+        width: 147px;
+        color: rgba(0, 0, 0, 0.226);
+    }
+
+    .card_information_interior_interior {
+        position: relative;
+        left: 5px;
+    }
+
+    .card_information_display {
+        position: relative;
+        display: flex;
+        gap: 25px;
+        left: 440px;
+        bottom: 30px;
+        width: 330px;
+    }
+
+    .card_people {
+        position: relative;
+        width: 265px;
+        height: 300px;
+        left: 80px;
+        bottom: 300px;
+    }
+
+    .start li img {
+        width: 15px;
+        position: relative;
+
+    }
+
+    .start {
+        position: relative;
+        display: flex;
+        right: 37px;
+    }
+
+    .card_people p {
+        top: 120px;
+        position: absolute;
+        color: rgba(0, 0, 0, 0.226);
+    }
+
+    #people_images li {
+        position: relative;
+        margin-left: 20px;
+        top: 40px;
+
+    }
+
+    li {
+        cursor: pointer;
+    }
+
+    #people_images img {
+        position: absolute;
+        width: 40px;
+    }
+
+    .card_people span {
+        top: 75px;
+        position: relative;
+        color: rgba(0, 0, 0, 0.226);
+
+    }
+
+    .footer_page {
+        position: relative;
+        top: 100px;
+        height: 470px;
+        width: 100%;
+        background-color: #121212;
+    }
+
+    .footer_about {
+        color: #fff;
+        flex-direction: column;
+
+    }
+
+    #right_ul {
+        position: relative;
+        color: white;
+        flex-direction: column;
+    }
+
+    #Click {
+        position: relative;
+        border: none;
+        background-color: #FF7500;
+        border-radius: 8px;
+        height: 46px;
+        color: white;
+        width: 80px;
+        right: 30px;
+        cursor: pointer;
+    }
+
+    .input_div h1 {
+        position: relative;
+        left: 50px;
+    }
+
+    .input_div p {
+        position: relative;
+        right: 5px;
+        bottom: 10px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .input_div {
+        color: white;
+    }
+
+    .input_div input {
+        position: relative;
+        border: 2px solid white;
+        outline: none;
+        width: 250px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #121212;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .foter_aboute {
+        position: relative;
+        top: 120px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #hr_footer {
+        position: relative;
+        top: 130px;
+        width: 700px;
+
+    }
+
+    .images_website {
+        position: relative;
+        float: right;
+        top: 140px;
+        right: 100px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .icon_website p {
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 150px;
+    }
+
+} */
+
+/* mobie responsive end  */
